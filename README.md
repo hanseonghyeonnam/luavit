@@ -43,4 +43,10 @@ I added some features in to the lua:
 2. Just move luavit in wrapper/wrapper/bin to /usr/local/bin
    > If self compiling, just enter 'make' in to the shell, in wrapper folder! (**NOT A wrapper/wrapper!**)
 3. Testing!
-   > In **wrapper/test**, run `luavit test.lua -- test`
+   > In **wrapper/test**, run `luavit test.lua`
+4. **ENJOY!**
+
+---
+
+### Copyright
+There is no copyright, **free 2 use!**
