@@ -1,4 +1,3 @@
-import awaitsync from 'awaitsync'
 import log from 'log'
 import uv from 'uv'
 
