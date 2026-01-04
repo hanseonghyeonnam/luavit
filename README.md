@@ -8,11 +8,12 @@ It's the **luvit wrapper**, and **some syntax adder** for lua!
 
 ---
 
-## Required
-1. `gcc` (when you compiling self)
-2. `luvit` any version, but luvit must in path (window) or /usr/local/bin. (linux) (luavit just calls luvit)
-
-**WARNING:** luavit is tested on only linux. The mac, windows are not **tested**.
+## Requirements
+- gcc (only if compiling from source)
+- luvit (any version) must be installed and in your PATH
+  - Linux: /usr/local/bin/luvit
+  - Windows: must be in system PATH
+**WARNING:** luavit is tested on only linux. Mac & Windows are not **tested**.
 
 ---
 
@@ -34,3 +35,12 @@ I added some features in to the lua:
 | `luavit.exists(str)`    | Returns true if <str> exists, false if <str> not exists.                       |
 | `luavit.exec(str)`      | Executes <str>, return stdout of <str>.                                        |
 | `luavit.isempty(str)`   | Returns true when <str> is nil or empty, false when <str> is not nil or empty. |
+---
+
+### Let's start!
+1. Clone this repo.
+   > `git clone https://github.com/hanseonghyeonnam/luavit.git`
+2. Just move luavit in wrapper/wrapper/bin to /usr/local/bin
+   > If self compiling, just enter 'make' in to the shell, in wrapper folder! (**NOT A wrapper/wrapper!**)
+3. Testing!
+   > In **wrapper/test**, run `luavit test.lua -- test`
