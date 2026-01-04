@@ -9,11 +9,20 @@ It's the **luvit wrapper**, and **some syntax adder** for lua!
 ---
 
 ## Requirements
-- gcc (only if compiling from source)
+- gcc*, luvi* (only if compiling from source)
 - luvit (any version) must be installed and in your PATH
   - Linux: /usr/local/bin/luvit
   - Windows: must be in system PATH
 **WARNING:** luavit is tested on only linux. Mac & Windows are not **tested**.
+
+---
+
+## Configs & Flags
+- luavit.json (not needed)
+  - NonMemoryExecution:<boolean [default: false]
+    - If true, creates `<file name>.transpiled.lua` file in the working directory when it transpiles. If false, Creates random tmp file. **This option is just made for some users who can't use tmp file, or working file!**
+- --s, -s
+  - When NonMemoryExecution is true, This option makes to not deleted trnaspiled file **for debugging.**
 
 ---
 
@@ -40,10 +49,10 @@ I added some features in to the lua:
 ### Let's start!
 1. Clone this repo.
    > `git clone https://github.com/hanseonghyeonnam/luavit.git`
-2. Just move luavit in wrapper/wrapper/bin to /usr/local/bin
-   > If self compiling, just enter 'make' in to the shell, in wrapper folder! (**NOT A wrapper/wrapper!**)
+2. Just move luavit in bin folder to /usr/local/bin for global use!
+   > If self compiling, just enter 'make' in to the shell, in luavit folder! (**NOT A wrapper folder!**)
 3. Testing!
-   > In **wrapper/test**, run `luavit test.lua`
+   > In **test folder**, run `luavit test.lua`
 4. **ENJOY!**
 
 ---

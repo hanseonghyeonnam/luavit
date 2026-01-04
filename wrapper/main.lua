@@ -24,10 +24,6 @@ local function exists(filename)
   return false
 end
 
-local function keyPath(author, fingerprint)
-  return string.format("keys/%s/%s", author, fingerprint:gsub(":", "_"))
-end
-
 local function exec(command)
     local handle = io.popen(command, 'r')
     if handle then
