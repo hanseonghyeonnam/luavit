@@ -14,7 +14,7 @@ It's the **luvit wrapper**, and **some syntax adder** for lua!
   - Linux: /usr/local/bin/luvit
   - Windows: must be in system PATH
 
-**WARNING:** luavit is tested on only linux. Mac & Windows are not **tested**.
+**WARNING:** luavit is tested on only linux. Mac & Windows are **not tested**.
 
 ---
 
