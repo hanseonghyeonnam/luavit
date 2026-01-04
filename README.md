@@ -13,6 +13,7 @@ It's the **luvit wrapper**, and **some syntax adder** for lua!
 - luvit (any version) must be installed and in your PATH
   - Linux: /usr/local/bin/luvit
   - Windows: must be in system PATH
+
 **WARNING:** luavit is tested on only linux. Mac & Windows are not **tested**.
 
 ---
